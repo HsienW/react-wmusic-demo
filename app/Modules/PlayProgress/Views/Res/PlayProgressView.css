@@ -1,0 +1,11 @@
+.play-progress-view {
+    width: 30%;
+    margin: auto;
+}
+
+.progress {
+    width: 84%;
+    float: left;
+    cursor:pointer;
+}
+
