@@ -15,7 +15,6 @@ import LeftMenuContainer from '../../LeftMenu/Containers/LeftMenuContainer';
 import SearchContentContainer from '../../SearchContent/Containers/SearchContentContainer';
 import WebStorage from '../../../WebStorage/WebStorage';
 import * as WebStorageKeys from '../../../WebStorage/WebStorageKeys';
-import 'antd/dist/antd.css';
 
 const MainContent = styled.div`
     width:100%;

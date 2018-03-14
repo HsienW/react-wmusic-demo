@@ -20,7 +20,7 @@ export default class PortalView extends React.Component {
     }
 
     goToPage = (url) => {
-        this.props.history.push(`${url}`);
+        this.props.history.push(`/${url}#/`);
         this.props.PortalActionsCreator.stopPortal();
     };
 
