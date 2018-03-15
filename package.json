@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
+  "homepage": "https://hsienw.github.io/react-wmusic-demo",
   "scripts": {
-    "deploy": "gh-pages -d dist",
     "build": "webpack",
     "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build --history-api-fallback",
     "prd": "webpack -p"
