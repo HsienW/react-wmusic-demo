@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
-  "homepage": "https://hsienw.github.io/react-wmusic-demo",
+  "homepage": "https://hsienw.github.io/react-wmusic-demo/signin",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build --history-api-fallback",
