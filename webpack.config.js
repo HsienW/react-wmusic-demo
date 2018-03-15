@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: './app/App.jsx',
@@ -41,9 +42,13 @@ module.exports = {
     },
 
     plugins: [
+        new CleanWebpackPlugin(['dist'], {
+            verbose: 'true',
+            dry: false
+        }),
         new HtmlWebpackPlugin({
             title: 'React W.Music',
-            template: 'dist/index.html',
+            template: './app/index.html',
             filename: 'index.html',
             minify: {
                 collapseWhitespace: true,
